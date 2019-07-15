@@ -1,0 +1,24 @@
+########################
+	Flask API
+########################
+
+Function List -
+1. getQuery
+2. getCrop
+
+### getQuery - 
+	Returns the select sql query of the mention table.
+	Returns the data in a similar manner renaming the column names.
+	
+### getCrop
+	Is a rest call which returns the data of the table in a format as follows.
+	Example: -
+		[{"date":"02-Nov-12","price":9.6,"supply":2.54},
+		{"date":"03-Nov-12","price":13.5,"supply":2.54},
+		{"date":"05-Nov-12","price":18.67,"supply":2.54}]	
+	The json response structure is kept in such a manner to work the chart a generic manner.
+
+The flask api works on port = 8082
+
+The database credentials can be edited in the script
+
