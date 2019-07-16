@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    tools:context=".Forecast">
+
+
+    <TableLayout
+        android:layout_width="348dp"
+        android:layout_height="352dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="15dp">
+
+
+        <TableRow
+            android:id="@+id/row1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/col1"
+                android:layout_width="188dp"
+                android:layout_height="33dp"
+                android:layout_gravity="left"
+                android:text="FORECAST"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/col2"
+                android:layout_width="188dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                tools:ignore="MissingConstraints" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/col21"
+                android:layout_width="188dp"
+                android:layout_height="34dp"
+                android:layout_gravity="left"
+                android:text="Wednesday"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/col22"
+                android:layout_width="188dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center"
+                android:text="34C"
+                tools:ignore="MissingConstraints" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/col31"
+                android:layout_width="188dp"
+                android:layout_height="34dp"
+                android:layout_gravity="left"
+                android:text="Thursday"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/col32"
+                android:layout_width="188dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center"
+                android:text="28C"
+                tools:ignore="MissingConstraints" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row4"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/col41"
+                android:layout_width="188dp"
+                android:layout_height="34dp"
+                android:layout_gravity="left"
+                android:text="Friday"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/col42"
+                android:layout_width="188dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center"
+                android:text="28C"
+                tools:ignore="MissingConstraints" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/col51"
+                android:layout_width="188dp"
+                android:layout_height="34dp"
+                android:layout_gravity="left"
+                android:text="Saturday"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/col52"
+                android:layout_width="188dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center"
+                android:text="29"
+                tools:ignore="MissingConstraints" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/row6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/col61"
+                android:layout_width="188dp"
+                android:layout_height="34dp"
+                android:layout_gravity="left"
+                android:text="Sunday"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/col62"
+                android:layout_width="188dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center"
+                android:text="27"
+                tools:ignore="MissingConstraints" />
+        </TableRow>
+    </TableLayout>
+
+
+</RelativeLayout>
+
+
+
+
+
+
+

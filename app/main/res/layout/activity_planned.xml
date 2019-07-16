@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".planned">
+
+    <ImageView
+        android:id="@+id/simpleImage1"
+        android:layout_width="164dp"
+        android:layout_height="146dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/simpleImage2"
+        app:srcCompat="@drawable/btrt1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/simpleImage2"
+        android:layout_width="164dp"
+        android:layout_height="146dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="69dp"
+        app:srcCompat="@drawable/tmto1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="313dp"
+        android:layout_height="235dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="88dp"
+        android:text="You have choosen tomato and beetroot both have different soil pH so its better to grow green chilly.According to the selected plan if you grow 30% of beetroot and 70% of tomato you can get more yield.The predicted revenue for this combination will be around Rs.1,00,000/acre"
+        android:textAlignment="center"
+        android:textColor="@color/input_login"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+</RelativeLayout>

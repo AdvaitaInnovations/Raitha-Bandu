@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About_Us">
+
+    <ImageView
+        android:id="@+id/Company"
+        android:layout_width="@dimen/size_image_width"
+        android:layout_height="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="357dp"
+        android:layout_height="368dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/aboutus_padding"
+        android:text="Advaita Innovations is an IT services provider and a product development company. It distinguishes itself from typical software and website design companies with its business driven approach, strategic thinking, personal attention, real world results, competitive prices and client centered work ethics.
+ It enables people belonging to all sectors to create a flawless and most organized platform for communication, marketing, setting, operations, all at one spot destination called “Advaita Innovations”. "
+        android:textAlignment="center"
+        android:textColor="@color/input_login"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+
+</RelativeLayout>

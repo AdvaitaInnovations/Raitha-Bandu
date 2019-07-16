@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Plannew">
+
+    <ImageButton
+        android:id="@+id/simpleImage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/checkBox3"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/btrt1" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/simpleImage1"
+        android:layout_below="@+id/simpleImage1"
+        android:text="Beetroot" />
+
+    <ImageButton
+        android:id="@+id/simpleImage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/simpleImage1"
+        android:layout_marginEnd="34dp"
+        app:srcCompat="@drawable/tmto1" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/simpleImage2"
+        android:layout_alignTop="@+id/checkBox"
+        android:text="Tomato" />
+
+    <ImageButton
+        android:id="@+id/simpleImage3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/simpleImage1"
+        android:layout_marginTop="171dp"
+        app:srcCompat="@drawable/rdish1" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/simpleImage4"
+        android:layout_marginStart="75dp"
+        android:text="Radish" />
+
+    <ImageButton
+        android:id="@+id/simpleImage4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/simpleImage2"
+        android:layout_alignTop="@+id/simpleImage3"
+        app:srcCompat="@drawable/cbge1" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignEnd="@+id/simpleImage2"
+        android:layout_alignTop="@+id/checkBox3"
+        android:text="Cabbage" />
+
+    <ImageButton
+        android:id="@+id/simpleImage5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/checkBox5"
+        android:layout_alignStart="@+id/simpleImage1"
+        app:srcCompat="@drawable/grnchilly1" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignEnd="@+id/simpleImage1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="69dp"
+        android:text="GreenChilli" />
+
+    <ImageButton
+        android:id="@+id/simpleImage6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/simpleImage2"
+        android:layout_alignTop="@+id/simpleImage5"
+        app:srcCompat="@drawable/bitrgrd1" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignEnd="@+id/simpleImage2"
+        android:layout_alignTop="@+id/checkBox5"
+        android:text="Bittergourd" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/checkBox3"
+        android:text="Plan" />
+
+</RelativeLayout>
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/simpleImage2"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:layout_alignParentEnd="true"-->
+    <!--android:layout_alignTop="@+id/simpleImage1"-->
+    <!--android:layout_marginEnd="61dp"-->
+    <!--app:srcCompat="@drawable/bittergourd" />-->
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/simpleImage3"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_alignStart="@+id/simpleImage1"-->
+    <!--android:layout_marginTop="188dp"-->
+    <!--app:srcCompat="@drawable/cabbage" />-->
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/simpleImage4"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:layout_alignStart="@+id/simpleImage2"-->
+    <!--android:layout_alignTop="@+id/simpleImage3"-->
+    <!--app:srcCompat="@drawable/greenchilli" />-->
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/simpleImage5"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_alignStart="@+id/simpleImage1"-->
+    <!--android:layout_marginBottom="47dp"-->
+    <!--app:srcCompat="@drawable/radish" />-->
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/simpleImage6"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:layout_alignStart="@+id/simpleImage2"-->
+    <!--android:layout_alignTop="@+id/simpleImage5"-->
+    <!--app:srcCompat="@drawable/tomato" />-->
+
