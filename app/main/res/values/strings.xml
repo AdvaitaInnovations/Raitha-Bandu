@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+
+<resources>
+
+    <string name="hint_email">Email</string>
+    <string name="text_price">Price</string>
+    <string name="text_plan">Plan</string>
+    <string name="text_predict">Predict</string>
+    <string name="text_weather">Weather</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_phone">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_phone_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_phone_password">Wrong Email or Password</string>
+    <!--<string name="app_name">RaithaBandu</string>-->
+    <string name="app_name">ರೈತ ಬಂಧು</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="dialog_message">Alert</string>
+    <string name="dialog_title">Alert</string>
+    <string name="text_hello">Hello,</string>
+    <string name="text_title">Welcome to RB</string>
+    <string name="text_accounts">All Accounts</string>
+    <string name="text_register">Register</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="menu_settings">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Aravind</string>
+    <string name="nav_header_subtitle">aravind@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="select">Choose a crop</string>
+    <string name="button_label">Submit</string>
+    <string name="textview">TextView</string>
+    <string name="thank_you">Thank you</string>
+    <string name="action_add_favourite">View Price </string>
+    <string name="action_play_next">Predict Price </string>
+    <string name="backdrop_title"> </string>
+    <string name="backdrop_subtitle"> </string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="text_curr">Current price:</string>
+    <string name="predict_month1">Price in 15 days</string>
+    <string name="predict_month2">Price in 30 days</string>
+    <string name="predict_month3">Price in 45 days</string>
+    <string name="predict_month4">Price in 60 days</string>
+    <string name="predict_month5">Price in 75 days</string>
+    <!--<string name="suggestedcrop3">Beetroot + cabbage + Radish</string>-->
+    <string name="suggestedcrop3">  ಬೀಟ್ರೂಟ್ + ಎಲೆಕೋಸು + ಮೂಲಂಗಿ</string>
+
+    <!--<string name="suggestedcrop2">Beetroot + Radish</string>-->
+    <string name="suggestedcrop2">ಬೀಟ್ರೂಟ್ + ಮೂಲಂಗಿ</string>
+
+    <!--<string name="suggestedcrop1">Beetroot + Cabbage</string>-->
+    <string name="suggestedcrop1">ಬೀಟ್ರೂಟ್ + ಎಲೆಕೋಸು</string>
+
+    <!--<string name="suggestedcrop">Suggested Crop Planning</string>-->
+    <string name="suggestedcrop">ಸೂಚಿಸಿದ ಬೆಳೆ ಯೋಜನೆ</string>
+
+    <!--<string name="majorcrop">Major Crop -></string>-->
+    <string name="majorcrop">ಪ್ರಮುಖ ಬೆಳೆ -></string>
+
+
+    <!--<string name="btrtcrop">\u2023 <b> Needs:</b> Grown in moist,fertile soil in a sunny spot.\n-->
+        <!--\u2023 <b>Cultivation Duration:</b> From April to July.</string>-->
+
+    <!--<string name="cbgerdishcrop">\u2023 <b> pH Value:</b> pH between 6.5 to 7.5. \n-->
+       <!--\u2023 <b>Plan:</b> So you can expect more profit if you grow 45% of cabbage,35% of beetroot and 20% of radish.\n-->
+      <!--\u2023  <b>Estimated Revenue:</b> The estimated future income of this composition is around 1,08,365/hectares</string>-->
+
+    <!--<string name="rdishcrop">\u2023 <b>Needs:</b> Planted in full sun or partial shade,and loose, well-drained soil.The soil needs to be free of rocks.\n-->
+        <!--\u2023 <b>pH Value:</b> pH content of around 7.4.\n-->
+       <!--\u2023 <b>Plan:</b> According to the plan selected if you are growing 70% beetroot and 30% radish\n-->
+        <!--\u2023 <b>Estimated Revenue:</b> You can get more yields. The estimated future income of this composition is around 1,55,200 / hectares</string>-->
+
+    <!--<string name="cbgecrop">\u2023 <b>Needs:</b> It's temperature sensitive crop,they need full sun and moisture to thrive.\n-->
+       <!--\u2023 <b>pH Value:</b> pH is between 6.5 and 7.5.\n-->
+       <!--\u2023 <b>Plan:</b> According to the plan selected if you are growing 40% beetroot and 60% cabbage\n-->
+       <!--\u2023 <b>Estimated Revenue:</b> You can get more yields. The estimated future income of this composition is around 1,71,400 / hectares</string>-->
+
+    <string name="btrtcrop">\u2023 <b> ಅಗತ್ಯಗಳು: </b> ತೇವಾಂಶವುಳ್ಳ, ಫಲವತ್ತಾದ ಮಣ್ಣಿನಲ್ಲಿ ಬಿಸಿಲಿನ ತಾಣ
+\u2023 <b> ಕೃಷಿ ಅವಧಿ: </b> ಏಪ್ರಿಲ್ ನಿಂದ ಜುಲೈ ವರೆಗೆ.</string>
+
+    <string name="cbgerdishcrop">\u2023 <b> pH ಮೌಲ್ಯ: </b> 6.5 ರಿಂದ 7.5 ರ ನಡುವೆ pH. \n
+       \u2023 <b> ಯೋಜನೆ: </b> ಆದ್ದರಿಂದ ನೀವು 45% ಎಲೆಕೋಸು, 35% ಬೀಟ್ರೂಟ್ ಮತ್ತು 20% ಮೂಲಂಗಿ ಬೆಳೆದರೆ ಹೆಚ್ಚಿನ ಲಾಭವನ್ನು ನಿರೀಕ್ಷಿಸಬಹುದು. \n
+      \u2023 <b> ಅಂದಾಜು ಆದಾಯ: </b> ಈ ಸಂಯೋಜನೆಯ ಅಂದಾಜು ಭವಿಷ್ಯದ ಆದಾಯ ಸುಮಾರು 1,08,365 / ಹೆಕ್ಟೇರ್</string>
+
+    <string name="rdishcrop">\u2023 <b> ಅಗತ್ಯಗಳು: </b> ಪೂರ್ಣ ಸೂರ್ಯ ಅಥವಾ ಭಾಗಶಃ ನೆರಳಿನಲ್ಲಿ ನೆಡಲಾಗುತ್ತದೆ ಮತ್ತು ಸಡಿಲವಾದ, ಚೆನ್ನಾಗಿ ಬರಿದಾದ ಮಣ್ಣಿನಲ್ಲಿ ನೆಡಲಾಗುತ್ತದೆ. ಮಣ್ಣು ಬಂಡೆಗಳಿಂದ ಮುಕ್ತವಾಗಿರಬೇಕು. \n
+       \u2023 <b> pH ಮೌಲ್ಯ: </b> ಸುಮಾರು 7.4 pH ಅಂಶ. \n
+       \u2023 <b> ಯೋಜನೆ: </b> ನೀವು 70% ಬೀಟ್ರೂಟ್ ಮತ್ತು 30% ಮೂಲಂಗಿ ಬೆಳೆಯುತ್ತಿದ್ದರೆ ಆಯ್ಕೆ ಮಾಡಿದ ಯೋಜನೆಯ ಪ್ರಕಾರ \n
+       \u2023 <b> ಅಂದಾಜು ಆದಾಯ: </b> ನೀವು ಹೆಚ್ಚಿನ ಇಳುವರಿಯನ್ನು ಪಡೆಯಬಹುದು. ಈ ಸಂಯೋಜನೆಯ ಭವಿಷ್ಯದ ಆದಾಯವು ಹೆಕ್ಟೇರ್‌ಗೆ ಸುಮಾರು 1,55,200 ಆಗಿದೆ</string>
+
+    <string name="cbgecrop">\u2023 <b> ಅಗತ್ಯಗಳು: </b> ಇದು ತಾಪಮಾನ ಸೂಕ್ಷ್ಮ ಬೆಳೆ, ಅವು ಬೆಳೆಯಲು ಪೂರ್ಣ ಸೂರ್ಯ ಮತ್ತು ತೇವಾಂಶ ಬೇಕಾಗುತ್ತದೆ. \n
+       \u2023 <b> pH ಮೌಲ್ಯ: </b> pH 6.5 ಮತ್ತು 7.5 ರ ನಡುವೆ ಇರುತ್ತದೆ. \n
+       \u2023 <b> ಯೋಜನೆ: </b> ನೀವು 40% ಬೀಟ್‌ರೂಟ್ ಮತ್ತು 60% ಎಲೆಕೋಸು ಬೆಳೆಯುತ್ತಿದ್ದರೆ ಆಯ್ಕೆ ಮಾಡಿದ ಯೋಜನೆಯ ಪ್ರಕಾರ \n
+       \u2023 <b> ಅಂದಾಜು ಆದಾಯ: </b> ನೀವು ಹೆಚ್ಚಿನ ಇಳುವರಿಯನ್ನು ಪಡೆಯಬಹುದು. ಈ ಸಂಯೋಜನೆಯ ಭವಿಷ್ಯದ ಆದಾಯವು ಹೆಕ್ಟೇರ್‌ಗೆ ಸುಮಾರು 3,30,000 ಆಗಿದೆ</string>
+
+
+    <string name="Predintro">Users can see the predicted price, and then decide which crops to grow.</string>
+    <string name="Selectpred">Select the crop to predict</string>
+    <string name="Priceintro">Users can view the current rate for all crops in the near market.</string>
+    <string name="Selectprice">Click to see the price</string>
+    <string name="Blore">Bangalore, Karnataka</string>
+    <string name="forecast">Forecast</string>
+    <string name="vegprice">Rs.60 / kg</string>
+
+    <!--<string name="beetroot"> Beetroot</string>-->
+    <string name="beetroot">  ಬೀಟ್ರೂಟ್</string>
+
+
+    <string name="tomato">Tomato</string>
+    <string name="cabbage">Cabbage</string>
+
+    <string name="radish">Radish</string>
+
+    <string name="greenchilli">Green Chilli</string>
+    <string name="bittergourd">Bitter Gourd</string>
+
+    <string-array name="crop">
+        <item>Please select the crop</item>
+        <item>Tomato</item>
+        <item>GreenChilly</item>
+        <item>Radish</item>
+        <item>Cabbage</item>
+        <item>BitterGourd</item>
+        <item>Beetroot</item>
+    </string-array>
+
+    <string-array name="text">
+        <item>--></item>
+        <item>--></item>
+    </string-array>
+
+    <string-array name="cropnum">
+        <item>Please select number of crop</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="crop1">
+        <item>Please select the crop</item>
+        <item>Tomato</item>
+        <item>GreenChilly</item>
+        <item>Radish</item>
+        <!--<item>Cabbage</item><item>BitterGourd</item><item>Beetroot</item>-->
+    </string-array>
+
+    <string-array name="crop2">
+        <item>Please select the crop</item>
+        <!-- <item>Tomato</item><item>GreenChilly</item><item>Radish</item>-->
+        <item>Cabbage</item>
+        <item>BitterGourd</item>
+        <item>Beetroot</item>
+    </string-array>
+
+    <string-array name="price">
+        <item>Price at month1</item>
+        <item>Price at month2</item>
+        <item>Price at month3</item>
+        <item>Price at month4</item>
+        <item>Price at month5</item>
+    </string-array>
+
+    <string-array name="price1">
+        <item>13.5</item>
+        <item>22.4</item>
+        <item>17.5</item>
+        <item>21</item>
+        <item>19</item>
+    </string-array>
+
+    <string-array name="Forecast">
+        <item>34C</item>
+        <item>28C</item>
+        <item>28C</item>
+        <item>29C</item>
+        <item>27C</item>
+    </string-array>
+
+
+</resources>

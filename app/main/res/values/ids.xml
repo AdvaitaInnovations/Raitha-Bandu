@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="wheather" type="id" />
+    <item name="crop" type="id" />
+    <item name="price" type="id" />
+</resources>

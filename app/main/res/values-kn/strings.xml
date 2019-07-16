@@ -1,0 +1,248 @@
+<?xml version="1.0"?>
+
+    <resources>
+    <string name="text_price">ಬೆಲೆ</string>
+    <string name="text_plan">ಯೋಜನೆ</string>
+    <string name="text_predict">ಭವಿಷ್ಯ</string>
+    <string name="text_weather">ಹವಾಮಾನ</string>
+        <string name="hint_email">ಇಮೇಲ್</string>
+
+        <string name="error_message_name">ಪೂರ್ಣ ಹೆಸರನ್ನು ನಮೂದಿಸಿ</string>
+
+        <string name="error_message_phone">ಮಾನ್ಯ ಇಮೇಲ್ ನಮೂದಿಸಿ</string>
+
+        <string name="error_message_age">ವಯಸ್ಸನ್ನು ನಮೂದಿಸಿ</string>
+
+        <string name="error_message_password">ಪಾಸ್ವರ್ಡ್ ನಮೂದಿಸಿ</string>
+
+        <string name="success_message">ನೋಂದಣಿ ಯಶಸ್ವಿಯಾಗಿದೆ</string>
+
+        <string name="text_already_member">ಈಗಾಗಲೇ ಸದಸ್ಯರೇ? ಲಾಗಿನ್ ಮಾಡಿ</string>
+
+        <string name="error_phone_exists">ಇಮೇಲ್ ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ</string>
+
+        <string name="error_password_match">ಪಾಸ್ವರ್ಡ್ ಹೊಂದಾಣಿಕೆಯಾಗುವುದಿಲ್ಲ</string>
+
+        <string name="error_valid_phone_password">ತಪ್ಪಾದ ಇಮೇಲ್ ಅಥವಾ ಪಾಸ್ವರ್ಡ್</string>
+
+        <string name="app_name">ರೈತ ಬಂಧು</string>
+
+        <string name="hint_phone">ದೂರವಾಣಿ</string>
+
+        <string name="hint_password">ಪಾಸ್ವರ್ಡ್</string>
+
+        <string name="hint_name">ಪೂರ್ಣ ಹೆಸರು</string>
+
+        <string name="btn_login">ಲಾಗಿನ್</string>
+
+        <string name="btn_register">ನೋಂದಣಿ</string>
+
+        <string name="btn_link_to_register">ಸದಸ್ಯರಲ್ಲವೇ? ಈಗ ಸೈನ್ ಅಪ್ ಮಾಡಿ.</string>
+
+        <string name="btn_link_to_login">
+ಈಗಾಗಲೇ ನೋಂದಾಯಿಸಲಾಗಿದೆ! ನನ್ನನ್ನು ಲಾಗಿನ್ ಮಾಡಿ.</string>
+
+        <string name="welcome">
+ಸ್ವಾಗತ</string>
+
+        <string name="btn_logout">ಲಾಗ್ ಔಟ್</string>
+
+        <string name="name">
+ಪೂರ್ಣ ಹೆಸರು</string>
+
+        <string name="dialog_message">ಎಚ್ಚರಿಕೆ</string>
+
+        <string name="dialog_title">ಎಚ್ಚರಿಕೆ</string>
+
+        <string name="text_hello">
+ಹಲೋ,</string>
+
+        <string name="text_title">ರೈತಾ ಬಂಧುಗೆ ಸ್ವಾಗತ</string>
+
+        <string name="text_accounts">
+ಎಲ್ಲಾ ಖಾತೆಗಳು</string>
+
+        <string name="text_register">ನೋಂದಣಿ</string>
+
+        <string name="hint_confirm_password">
+ಪಾಸ್ವರ್ಡ್ ದೃಢೀಕರಿಸಿ</string>
+
+        <string name="text_login">ಲಾಗಿನ್ ಮಾಡಿ</string>
+
+        <string name="text_not_member">
+ಇನ್ನೂ ಖಾತೆಯಿಲ್ಲವೇ? ಒಂದನ್ನು ತಯಾರಿಸಿ</string>
+
+        <string name="menu_settings">
+ಸೆಟ್ಟಿಂಗ್ಗಳು</string>
+
+        <string name="navigation_drawer_open">Open navigation drawer</string>
+
+        <string name="navigation_drawer_close">Close navigation drawer</string>
+
+        <string name="nav_header_title">ಅರವಿಂದ್</string>
+
+        <string name="nav_header_subtitle">aravind@gmail.com</string>
+
+        <string name="nav_header_desc">ನ್ಯಾವಿಗೇಷನ್ ಹೆಡರ್</string>
+
+        <string name="action_settings">ಸೆಟ್ಟಿಂಗ್ಗಳು</string>
+
+        <string name="select">
+ಬೆಳೆ ಆಯ್ಕೆಮಾಡಿ</string>
+
+        <string name="button_label">
+ಸಲ್ಲಿಸಿ</string>
+
+        <string name="textview">
+ಪಠ್ಯವೀಕ್ಷಣೆ</string>
+
+        <string name="thank_you">
+ಧನ್ಯವಾದಗಳು</string>
+
+
+    <string name="btrtcrop">\u2023 <b> ಅಗತ್ಯಗಳು: </b> ತೇವಾಂಶವುಳ್ಳ, ಫಲವತ್ತಾದ ಮಣ್ಣಿನಲ್ಲಿ ಬಿಸಿಲಿನ ತಾಣ
+\u2023 <b> ಕೃಷಿ ಅವಧಿ: </b> ಏಪ್ರಿಲ್ ನಿಂದ ಜುಲೈ ವರೆಗೆ.</string>
+
+    <string name="cbgerdishcrop">\u2023 <b> pH ಮೌಲ್ಯ: </b> 6.5 ರಿಂದ 7.5 ರ ನಡುವೆ pH. \ n
+       \u2023 <b> ಯೋಜನೆ: </b> ಆದ್ದರಿಂದ ನೀವು 45% ಎಲೆಕೋಸು, 35% ಬೀಟ್ರೂಟ್ ಮತ್ತು 20% ಮೂಲಂಗಿ ಬೆಳೆದರೆ ಹೆಚ್ಚಿನ ಲಾಭವನ್ನು ನಿರೀಕ್ಷಿಸಬಹುದು. \ n
+      comp u2023 <b> ಅಂದಾಜು ಆದಾಯ: </b> ಈ ಸಂಯೋಜನೆಯ ಅಂದಾಜು ಭವಿಷ್ಯದ ಆದಾಯ ಸುಮಾರು 1,08,365 / ಹೆಕ್ಟೇರ್</string>
+
+    <string name="rdishcrop">\u2023 <b> ಅಗತ್ಯಗಳು: </b> ಪೂರ್ಣ ಸೂರ್ಯ ಅಥವಾ ಭಾಗಶಃ ನೆರಳಿನಲ್ಲಿ ನೆಡಲಾಗುತ್ತದೆ ಮತ್ತು ಸಡಿಲವಾದ, ಚೆನ್ನಾಗಿ ಬರಿದಾದ ಮಣ್ಣಿನಲ್ಲಿ ನೆಡಲಾಗುತ್ತದೆ. ಮಣ್ಣು ಬಂಡೆಗಳಿಂದ ಮುಕ್ತವಾಗಿರಬೇಕು. \ n
+        7. u2023 <b> pH ಮೌಲ್ಯ: </b> ಸುಮಾರು 7.4 pH ಅಂಶ. \ n
+       70 u2023 <b> ಯೋಜನೆ: </b> ನೀವು 70% ಬೀಟ್ರೂಟ್ ಮತ್ತು 30% ಮೂಲಂಗಿ ಬೆಳೆಯುತ್ತಿದ್ದರೆ ಆಯ್ಕೆ ಮಾಡಿದ ಯೋಜನೆಯ ಪ್ರಕಾರ \ n
+        20 u2023 <b> ಅಂದಾಜು ಆದಾಯ: </b> ನೀವು ಹೆಚ್ಚಿನ ಇಳುವರಿಯನ್ನು ಪಡೆಯಬಹುದು. ಈ ಸಂಯೋಜನೆಯ ಭವಿಷ್ಯದ ಆದಾಯವು ಹೆಕ್ಟೇರ್‌ಗೆ ಸುಮಾರು 1,55,200 ಆಗಿದೆ</string>
+
+    <string name="cbgecrop">\u2023 <b> ಅಗತ್ಯಗಳು: </b> ಇದು ತಾಪಮಾನ ಸೂಕ್ಷ್ಮ ಬೆಳೆ, ಅವು ಬೆಳೆಯಲು ಪೂರ್ಣ ಸೂರ್ಯ ಮತ್ತು ತೇವಾಂಶ ಬೇಕಾಗುತ್ತದೆ. \ n
+       \u2023 <b> pH ಮೌಲ್ಯ: </b> pH 6.5 ಮತ್ತು 7.5 ರ ನಡುವೆ ಇರುತ್ತದೆ. \ n
+       40 u2023 <b> ಯೋಜನೆ: </b> ನೀವು 40% ಬೀಟ್‌ರೂಟ್ ಮತ್ತು 60% ಎಲೆಕೋಸು ಬೆಳೆಯುತ್ತಿದ್ದರೆ ಆಯ್ಕೆ ಮಾಡಿದ ಯೋಜನೆಯ ಪ್ರಕಾರ \ n
+       20 u2023 <b> ಅಂದಾಜು ಆದಾಯ: </b> ನೀವು ಹೆಚ್ಚಿನ ಇಳುವರಿಯನ್ನು ಪಡೆಯಬಹುದು. ಈ ಸಂಯೋಜನೆಯ ಭವಿಷ್ಯದ ಆದಾಯವು ಹೆಕ್ಟೇರ್‌ಗೆ ಸುಮಾರು 1,71,400 ಆಗಿದೆ</string>
+
+
+
+    <!--<string name="action_add_favourite">View Price </string>-->
+        <!--<string name="action_play_next">Predict Price </string>-->
+        <!--<string name="backdrop_title"> </string>-->
+        <!--<string name="backdrop_subtitle"> </string>-->
+        <!--<string name="title_activity_welcome">Home Screen</string>-->
+        <!--<string name="next">NEXT</string>-->
+        <!--<string name="skip">SKIP</string>-->
+        <!--<string name="start">GOT IT</string>-->
+
+
+        <string-array name="crop">
+
+            <item>Please select the crop</item>
+
+            <item>Tomato</item>
+
+            <item>GreenChilly</item>
+
+            <item>Radish</item>
+
+            <item>Cabbage</item>
+
+            <item>BitterGourd</item>
+
+            <item>Beetroot</item>
+
+        </string-array>
+
+
+        -
+        <string-array name="cropnum">
+
+            <item>Please select number of crop</item>
+
+            <item>1</item>
+
+            <item>2</item>
+
+            <item>3</item>
+
+            <item>4</item>
+
+        </string-array>
+
+
+        -
+        <string-array name="crop1">
+
+            <item>Please select the crop</item>
+
+            <item>Tomato</item>
+
+            <item>GreenChilly</item>
+
+            <item>Radish</item>
+
+            <!--<item>Cabbage</item><item>BitterGourd</item><item>Beetroot</item>-->
+
+
+        </string-array>
+
+
+        -
+        <string-array name="crop2">
+
+            <item>Please select the crop</item>
+
+            <!-- <item>Tomato</item><item>GreenChilly</item><item>Radish</item>-->
+
+
+            <item>Cabbage</item>
+
+            <item>BitterGourd</item>
+
+            <item>Beetroot</item>
+
+        </string-array>
+
+
+        -
+        <string-array name="price">
+
+            <item>Price at month1</item>
+
+            <item>Price at month2</item>
+
+            <item>Price at month3</item>
+
+            <item>Price at month4</item>
+
+            <item>Price at month5</item>
+
+        </string-array>
+
+
+        -
+        <string-array name="price1">
+
+            <item>13.5</item>
+
+            <item>22.4</item>
+
+            <item>17.5</item>
+
+            <item>21</item>
+
+            <item>19</item>
+
+        </string-array>
+
+
+        -
+        <string-array name="Forecast">
+
+            <item>34C</item>
+
+            <item>28C</item>
+
+            <item>28C</item>
+
+            <item>29C</item>
+
+            <item>27C</item>
+
+        </string-array>
+
+</resources>
