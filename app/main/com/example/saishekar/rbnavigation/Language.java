@@ -1,0 +1,140 @@
+package com.example.saishekar.rbnavigation;
+
+import android.content.Context;
+import android.content.Intent;
+import android.content.res.Configuration;
+import android.content.res.Resources;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.util.DisplayMetrics;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.Spinner;
+import android.widget.Toast;
+
+import com.example.saishekar.rbnavigation.helper.LocaleHelper;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+
+public class Language extends AppCompatActivity {
+    Spinner spinner;
+    Locale myLocale;
+    String currentLanguage = "en", currentLang;
+Button back;
+    public static final String TAG = "bottom_sheet";
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_language);
+       back = (Button) findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View view) {
+                Intent intent = new Intent(Language.this, NavMainActivity.class);
+                //intent.putExtra("key","abc");
+                startActivity(intent);
+            }
+        });
+        currentLanguage = getIntent().getStringExtra(currentLang);
+
+        spinner = (Spinner) findViewById(R.id.spinner);
+
+        List<String> list = new ArrayList<String>();
+
+        list.add("Select language");
+        list.add("English");
+        list.add("Español");
+        list.add("Français");
+        list.add("Hindi");
+        list.add("Kannada");
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, list);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner.setAdapter(adapter);
+
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
+                switch (position) {
+                    case 0:
+                        break;
+                    case 1:
+                        setLocale("en");
+                        break;
+                    case 2:
+                        setLocale("es");
+                        break;
+                    case 3:
+                        setLocale("fr");
+                        break;
+                    case 4:
+                        setLocale("hi");
+                        break;
+                    case 5:
+                        setLocale("kn");
+                        break;
+
+
+
+                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+            }
+        });
+
+
+        //bootom sheet design
+        Button showBottomSheet = (Button) findViewById(R.id.button);
+
+        showBottomSheet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                BottomSheetFragment fragment = new BottomSheetFragment();
+                fragment.show(getSupportFragmentManager(), TAG);
+            }
+        });
+
+
+
+    }
+
+    public void setLocale(String localeName) {
+        if (!localeName.equals(currentLanguage)) {
+            Context context = LocaleHelper.setLocale(this, localeName);
+            Resources resources = context.getResources();
+            myLocale = new Locale(localeName);
+            Resources res = context.getResources();
+            DisplayMetrics dm = res.getDisplayMetrics();
+            Configuration conf = res.getConfiguration();
+            conf.locale = myLocale;
+            res.updateConfiguration(conf, dm);
+            Intent refresh = new Intent(this, Language.class);
+//            getBaseContext().getResources().updateConfiguration(conf,
+//            getBaseContext().getResources().getDisplayMetrics());
+//            this.setContentView(R.layout.content_main);
+            refresh.putExtra(currentLang, localeName);
+            startActivity(refresh);
+        } else {
+            Toast.makeText(Language.this, "Language already selected!", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    public void onBackPressed() {
+        Intent intent = new Intent(Intent.ACTION_MAIN);
+        intent.addCategory(Intent.CATEGORY_HOME);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
+        finish();
+        System.exit(0);
+    }
+    @Override
+    protected void attachBaseContext(Context base) {
+        super.attachBaseContext(LocaleHelper.onAttach(base));
+    }
+}
