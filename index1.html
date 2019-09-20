@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style> /* set the CSS */
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+</style>
+<body>
+  <div id="option">
+    <select id="fullCrop" onchange="updateData()">
+      <option value="beetroot">beetroot</option>
+      <option value="bitter">bitter</option>
+      <option value="cabbage">cabbage</option>
+      <option value="greenchilly">greenchilly</option>
+      <option value="radish">radish</option>
+    </select>
+
+</div>
+<!-- load the d3.js library -->     
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<link rel="icon" href="data:;base64,iVBORw0KGgo=">
+
+<script>
+
+// set the dimensions and margins of the graph
+var margin = {top: 20, right: 20, bottom: 30, left: 50},
+    width = 1200 - margin.left - margin.right,
+    height = 600 - margin.top - margin.bottom;
+
+// parse the date / time
+var parseTime = d3.timeParse("%d-%b-%y");
+
+// set the ranges
+var x = d3.scaleTime().range([0, width]);
+var y = d3.scaleLinear().range([height, 0]);
+
+// define the line
+var valueline = d3.line()
+    .x(function(d) { return x(d.date); })
+    .y(function(d) { return y(d.price); });
+
+// append the svg obgect to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+// Get the data
+d3.json('http://127.0.0.1:8082/prediction', function(error, data) {
+  if (error) throw error;
+
+  // format the data
+  data.forEach(function(d) {
+      d.date = parseTime(d.beet_date);
+      d.price = +d.price;
+  });
+
+  // Scale the range of the data
+  x.domain(d3.extent(data, function(d) { return d.date; }));
+  y.domain([0, d3.max(data, function(d) { return d.price; })]);
+
+  // Add the valueline path.
+  svg.append("path")
+      .data([data])
+      .attr("class", "line")
+      .attr("d", valueline);
+
+  svg.append("text")
+    .attr("x", (width / 2))             
+    .attr("y", 0 - (margin.top / 4))
+    .attr("text-anchor", "middle")  
+    .style("font-size", "20px")
+    .text("Arima");
+
+  // Add the X Axis
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x));
+
+  // Add the Y Axis
+  svg.append("g")
+        .attr("class", "y axis")
+      .call(d3.axisLeft(y));
+});
+
+// ** Update data section (Called from the onclick)
+// function updateData() {
+//   var cropName = document.getElementById("fullCrop").value;
+//   console.log("update :: " + cropName)
+//   //console.log(cropName)
+//   d3.json('http://127.0.0.1:8082/prediction'+cropName, function(error, data) {
+//   if (error) throw error;
+
+//   // format the data
+//   data.forEach(function(d) {
+//       d.date = parseTime(d.beet_date);
+//       d.price = +d.price;
+//   });
+
+//   // Scale the range of the data
+//   x.domain(d3.extent(data, function(d) { return d.beet_date; }));
+//   y.domain([0, d3.max(data, function(d) { return d.price; })]);
+
+
+//   // Select the section we want to apply our changes to
+//   var svg = d3.select("body").transition();
+
+//   // Make the changes
+//   svg.select(".line")   // change the line
+//       .duration(750)
+//       .attr("d", valueline(data));
+//   svg.select(".x.axis") // change the x axis
+//       .duration(750)
+//       .call(x);
+//   svg.select(".y.axis") // change the y axis
+//       .duration(750)
+//       .call(y);
+
+// });
+// }
+
+</script>
+</body>
